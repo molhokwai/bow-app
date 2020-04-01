@@ -25,6 +25,8 @@ It was built as an inception, a demo of how Bow can be used to generate a mini (
 Please note that:
 - `config/database.php` connection details are not used `vendor/bowphp/framework/src/Database/Connection/Adapter/MysqlAdapter.php`, so they are hard coded there
 - The code is very (very) raw, not optimized, not refactored, not necessarily integrated in the Bow framework logic...
+- The layout is the same, raw, bare, basic...
+
 
 ### Running the branch's app
 If you are not running bow yet, after having installed bow as described in [Bow - Installation](https://bowphp.github.io/docs/installation),
@@ -44,6 +46,13 @@ Or manually copy/overwrite these files with that of the branch:
 Then `> php bow run:server`, as described in [Bow - Installation](https://bowphp.github.io/docs/installation)
 ...and your application will be running at `localhost:5000`
 
+### Screen capture
+This is what you should see:
+_( click the image to see the 42s screencast )_
+[![Demo branch application screenshot](https://user-images.githubusercontent.com/89254/78118291-b55ed580-73fe-11ea-90ff-d5c0dc250d9b.png)
+](https://drive.google.com/open?id=1XFvcnQwWcy48zemI4XetxDzCDMei5Xal)
+
+For more information look at this Markdown cheatsheet on GitHub.
 
 #### Database
 You must first generate the database, table and tabel content by running:
