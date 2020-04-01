@@ -36,13 +36,13 @@ Please note that:
 ### Running the branch's app
 
 #### Database
-You must first generate the database, table and tabel content by running:
-- [tests/Model/3.1-base-de-données-création.sql](./tests/Model/3.1-base-de-données-création.sql)
-- and [tests/Model/3.1-base-de-données-création-alter-for-bow](./tests/Model/3.1-base-de-données-création-alter-for-bow)
+You must first generate the database, table and table content by running:
+- [tests/Model/3.1-base-de-données-création.sql](https://github.com/molhokwai/bow-app/tests/Model/3.1-base-de-données-création.sql)
+- and [tests/Model/3.1-base-de-données-création-alter-for-bow](https://github.com/molhokwai/bow-app/tests/Model/3.1-base-de-données-création-alter-for-bow)
 
 ... then setup the configs with your connection details
-- [config/database.php](./config/database.php)
-- [vendor/.../MysqlAdapter.php](./vendor/bowphp/framework/src/Database/Connection/Adapter/MysqlAdapter.php)
+- [config/database.php](https://github.com/molhokwai/bow-app/config/database.php)
+- [vendor/.../MysqlAdapter.php](https://github.com/molhokwai/bow-app/vendor/bowphp/framework/src/Database/Connection/Adapter/MysqlAdapter.php)
 
 _(as you will see it is based on Cake PHP getting started tutorial database...)_
 
