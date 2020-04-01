@@ -49,7 +49,7 @@ Then `> php bow run:server`, as described in [Bow - Installation](https://bowphp
 ### Screen capture
 This is what you should see:
 _( click the image to see the 42s screencast )_
-[![Demo branch application screenshot](https://user-images.githubusercontent.com/89254/78118291-b55ed580-73fe-11ea-90ff-d5c0dc250d9b.png)
+[![Demo branch application screenshot](https://user-images.githubusercontent.com/89254/78118932-96ad0e80-73ff-11ea-8408-125109385703.png)
 ](https://drive.google.com/open?id=1XFvcnQwWcy48zemI4XetxDzCDMei5Xal)
 
 For more information look at this Markdown cheatsheet on GitHub.
