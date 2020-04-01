@@ -28,7 +28,25 @@ Please note that:
 - The layout is the same, raw, bare, basic...
 
 
+### The Purpose
+... of this branch is to maybe serve to enrich the documentation after having cleaned, refactored and properly integrated it into Bow....
+**Voilà**
+
+
 ### Running the branch's app
+
+#### Database
+You must first generate the database, table and tabel content by running:
+- [tests/Model/3.1-base-de-données-création.sql](./tests/Model/3.1-base-de-données-création.sql)
+- and [tests/Model/3.1-base-de-données-création-alter-for-bow](./tests/Model/3.1-base-de-données-création-alter-for-bow)
+
+... then setup the configs with your connection details
+- [config/database.php](./config/database.php)
+- [vendor/.../MysqlAdapter.php](./vendor/bowphp/framework/src/Database/Connection/Adapter/MysqlAdapter.php)
+
+_(as you will see it is based on Cake PHP getting started tutorial database...)_
+
+#### Running
 If you are not running bow yet, after having installed bow as described in [Bow - Installation](https://bowphp.github.io/docs/installation),
 You can initialize git and checkout this branch **!This is not tested**... 
 Or manually copy/overwrite these files with that of the branch:
@@ -46,29 +64,11 @@ Or manually copy/overwrite these files with that of the branch:
 Then `> php bow run:server`, as described in [Bow - Installation](https://bowphp.github.io/docs/installation)
 ...and your application will be running at `localhost:5000`
 
-### Screen capture
+#### Screen capture
 This is what you should see:
 _( click the image to see the 42s screencast )_
 [![Demo branch application screenshot](https://user-images.githubusercontent.com/89254/78118932-96ad0e80-73ff-11ea-8408-125109385703.png)
 ](https://drive.google.com/open?id=1XFvcnQwWcy48zemI4XetxDzCDMei5Xal)
-
-For more information look at this Markdown cheatsheet on GitHub.
-
-#### Database
-You must first generate the database, table and tabel content by running:
-- [tests/Model/3.1-base-de-données-création.sql](./tests/Model/3.1-base-de-données-création.sql)
-- and [tests/Model/3.1-base-de-données-création-alter-for-bow](./tests/Model/3.1-base-de-données-création-alter-for-bow)
-
-... then setup the configs with your connection details
-- [config/database.php](./config/database.php)
-- [vendor/.../MysqlAdapter.php](./vendor/bowphp/framework/src/Database/Connection/Adapter/MysqlAdapter.php)
-
-_(as you will see it is based on Cake PHP getting started tutorial database...)_
-
-
-### The Purpose
-... of this branch is to maybe serve to enrich the documentation after having cleaned, refactored and properly integrate it into Bow....
-**Voilà**
 
 
 ## Contributing
